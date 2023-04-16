@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif
+}
+
+ body{
+    background-image: url(./images/bg-mobile-hurdle.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:  hsl(267, 40%, 49%);
+    color: soft  magenta hsl(300, 69%, 71%);
+ }
+
+ .main-container{
+   padding: 2rem;
+ }
+
+ .logo{
+    width: 50%;
+ }
+
+ .illustration-mockups{
+   width: 100%; 
+   margin-top: 40px;
+ } 
+
+ .community-content{ 
+  margin-top:3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  color: white;
+ }
+
+ .huddle-content{
+  text-align: center;
+ font-size: 15px;
+  line-height: 25px;
+  color: white;
+
+ }
+
+ .button{
+  border: none;
+  border-radius: 30px;
+  height: 55px;
+  width: 70%;
+  margin-top: 30px;
+  font-size:18px;
+  font-weight: 500;
+  margin-left:50px;
+  color: purple;
+  filter: drop-shadow(2px 4px 8px black);
+ }
+
+ .button:hover{
+  background-color: rgb(160, 28, 160);
+  color: white;
+ }
+
+ footer{
+  width: 100%;
+ }
+
+ .footer{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-top: 70px;
+  gap: 20px;
+ }
+
+ .footer i{
+  color:white;
+  font-size: 37px;
+ }
+
+  i:hover{
+  color:purple;
+  border-radius:5px;
+ }
+
+
+ /*MEDIA SCREEN DESKTOP VIEW*/
+ 
+ @media screen and (min-width:480px) {
+
+  .main-container{
+    margin: 4rem auto;  
+    max-width: 1300px;
+  }
+
+  .logo{
+    width: 15%;
+  }
+      
+  .huddle-content{
+    text-align: left;
+  }
+  
+ .main-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .community-content{
+    font-size:45px;
+  }
+    
+  .footer{
+    justify-content: end;
+  }
+
+  body{
+    height: 70vh;
+  }
+  
+  #section{
+    padding: 2rem;
+    padding-top: 3rem;
+  }
+    
+  .community-content{
+    text-align: left;
+  }
+
+  .button{
+    width: 35%;
+    margin-left: 0px;
+  }
+
+  
+ }
